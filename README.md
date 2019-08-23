@@ -1,5 +1,5 @@
 # JavaScript Coding Challenges :computer:
-This repository contains a set of Kotlin programming challenges together with the solutions.
+This repository contains a set of JavaScript programming challenges together with the solutions.
 
 **Challenge Questions:**
 All of the challenges are listed below.
