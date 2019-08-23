@@ -108,3 +108,7 @@ Create a function that takes an array of 10 numbers between 0 and 9 and returns 
 The function call should resemble something like this: ```formatPhoneNumber(4, 4, 1, 2, 3, 4, 5, 6, 7, 8).```
 
 **[Solution](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/FormatPhoneNumber.js)**
+
+**17. Find the area of a triangle:**
+    Write a function that takes the base and height of a triangle and print its area.
+**[Solution](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/AreaOfTriangle.js)**
