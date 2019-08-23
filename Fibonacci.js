@@ -5,8 +5,7 @@ function fib(n) {
     for (let i = 2; i < n; i++) {
       result.push(result[i-2] + result[i-1]);
     }
-    console.log(result) // or result[n-1] if you want to get the nth term
+    console.log(result) 
   
   }
   fib(8)
-
