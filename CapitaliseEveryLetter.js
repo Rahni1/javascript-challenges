@@ -5,4 +5,4 @@ const caps = str => {
   .join(' ')
   console.log(str)
 }
-caps("random string is a capitalised string")
+caps("javascript is a fantastic language.")
