@@ -56,7 +56,7 @@ CHALLENGES:
     Print the multiples of 5 whilst skipping the multiples of 3.
    
 **NameChange:**    
-    Change your surname using a constructor, initializer block and object instance.
+    Change your surname using a constructor function, the changeName function and an object instance.
    
 **Palindrome:**
     Given a string of text, print true or false indicating whether or not the text is a palindrome. 
