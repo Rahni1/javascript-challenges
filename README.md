@@ -112,3 +112,8 @@ The function call should resemble something like this: ```formatPhoneNumber(4, 4
 **17. Find the area of a triangle:**
     Write a function that takes the base and height of a triangle and print its area.
 **[Solution](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/AreaOfTriangle.js)**
+
+**18. Longest word:**
+Write a function that takes in (sen) as a parameter and prints the longest word in a sentence.
+
+**[Solution](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/LongestWord.js)**
