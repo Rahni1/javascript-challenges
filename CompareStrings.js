@@ -1,4 +1,3 @@
-// Are strings equal?
 function compareStrings(string1, string2) {
     if (string1.length === string2.length) {
         console.log(true)
@@ -6,6 +5,6 @@ function compareStrings(string1, string2) {
         console.log(false)
     }
 }
-compareStrings("Are they same length?", "No")
+compareStrings("Are they the same length?", "No")
 
  
