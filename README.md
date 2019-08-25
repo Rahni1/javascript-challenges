@@ -121,4 +121,4 @@ Write a function that takes in (sen) as a parameter and prints the longest word 
 **19. Missing angle:**
 Create a function that classifies the missing angle as either "acute", "right", or "obtuse" based on its degrees. Provide two numbers as arguments and calculate the missing degree by adding the two numbers and subtracting that from 180.
 
-**[Solution]()**
+**[Solution](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/missingAngle.js)**
