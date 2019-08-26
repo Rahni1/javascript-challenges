@@ -127,4 +127,4 @@ Create a function that classifies the missing angle as either "acute", "right", 
 Write a function which takes three number arguments (one number as an input and the other two numbers representing the lowest and highest points of the range). If the number falls within the range, print the number.
 If the number is less than the lower limit of the range, print the lowest limit number and if the number is greater than the upper limit of the range, print the highest limit number.
 
-
+**[Solution](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/limitNumValue.js)**
