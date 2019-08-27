@@ -10,9 +10,9 @@ The links to the solutions are provided below the questions.
 CHALLENGES:
    
 **1. Check Num:**
-    Have the function ```checkNum(num1,num2)``` take both parameters being passed and return the 
-    string true if num2 is greater than num1, otherwise return the string false.
-    If the parameter values are equal to each other then return the string -1.
+    Have the function ```checkNum(num1,num2)``` take both parameters being passed and print the 
+    string true if num2 is greater than num1, otherwise print the string false.
+    If the parameter values are equal to each other then print the string -1.
     
  **[Solution](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/CheckNums.js)**
 
