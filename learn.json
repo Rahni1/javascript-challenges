@@ -1,0 +1,33 @@
+{
+  "port": 3000,
+  "editor": {
+    "mode": null,
+    "agent": null,
+    "version": null
+  },
+  "dirPath": "./.learn",
+  "configPath": "./learn.json",
+  "outputPath": "./.learn/dist",
+  "publicPath": "/preview",
+  "publicUrl": null,
+  "language": "auto",
+  "grading": "isolated",
+  "exercisesPath": "./",
+  "webpackTemplate": null,
+  "disableGrading": false,
+  "disabledActions": [],
+  "actions": [],
+  "entries": {
+    "html": "index.html",
+    "vanillajs": "index.js",
+    "react": "app.jsx",
+    "node": "app.js",
+    "python3": "app.py",
+    "java": "app.java"
+  },
+  "difficulty": "easy",
+  "duration": 2,
+  "description": "10 javascript problems to test your knowledge",
+  "title": "Javascript 10 Challenges",
+  "slug": "javascript-10-challenges"
+}
