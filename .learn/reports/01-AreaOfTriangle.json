@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 4,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "There should be a checkNums function",
+      "status": "passed"
+    },
+    {
+      "title": "If num2 is bigger than num1 you should return true",
+      "status": "passed"
+    },
+    {
+      "title": "If num2 is less than num1 you should return false",
+      "status": "passed"
+    },
+    {
+      "title": "If num1 is EQUAL to num2 you should return -1",
+      "status": "passed"
+    }
+  ]
+}

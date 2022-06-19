@@ -1,0 +1,21 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 2,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "findVowels function must exist.",
+      "status": "passed"
+    },
+    {
+      "title": "You must have the correct number of vowels",
+      "status": "passed"
+    }
+  ]
+}

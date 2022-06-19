@@ -1,4 +1,4 @@
-# `02` 02-AreaOfTriangle
+# `01` 01-AreaOfTriangle
 
 Have the function checkNums(num1,num2) take both parameters being passed.
 
