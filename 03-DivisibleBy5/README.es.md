@@ -1,4 +1,4 @@
-# `03` 03-DivisibleBy5
+# `03` Divisible By 5
 
-# Instrucciones 🗒
+## Instrucciones 🗒
 1. Crea una función que retorne `true` si un integral es dividido por `5`, y `false` si no lo es.

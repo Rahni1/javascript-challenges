@@ -1,4 +1,4 @@
-# `04` 04-VowelCount
+# `04` Vowel Counter
 
-# Instructions 🗒
+## Instructions 🗒
 1. Crea una funcion que tome un `string` y retorne la cantidad de vocales que esta contiene.

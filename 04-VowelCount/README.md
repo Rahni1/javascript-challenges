@@ -1,4 +1,4 @@
-# `04` 04-VowelCount
+# `04` Vowel Counter
 
-# Instrucciones 🗒
+## Instructions 🗒
 1. Create a function that takes a `string` and returns the number of vowels contained within it.
