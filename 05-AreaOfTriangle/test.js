@@ -2,14 +2,14 @@ const rewire = require("rewire")
 const app = rewire('./app.js')
 
 
-test('findVowels function must exist.', ()=>{
-  const findVowels = app.__get__('findVowels')
-  expect(findVowels).toBeTruthy();
+test('AreaOfTriangle function must exist.', ()=>{
+  const AreaOfTriangle = app.__get__('AreaOfTriangle')
+  expect(AreaOfTriangle).toBeTruthy();
 })
 
-test('You must have the correct number of vowels', ()=>{
-  const findVowels = app.__get__("findVowels");
+test('The base for the triangle is correct', ()=>{
+  const AreaOfTriangle = app.__get__("AreaOfTriangle");
 
-  expect(findVowels("carola")).toBe(3)
-  expect(findVowels("youtube")).toBe(4)
+  expect(AreaOfTriangle(2,5)).toBe(5)
+  expect(AreaOfTriangle(7,14)).toBe(49)
 })
