@@ -1,15 +1,15 @@
-const rewire = require("rewire")
-const app = rewire('./app.js')
+const rewire = require("rewire");
+const app = rewire("./app.js");
 
+test("sliceOfCake function must exist.", () => {
+  const sliceOfCake = app.__get__("sliceOfCake");
+  expect(sliceOfCake).toBeTruthy();
+});
 
-test('findVowels function must exist.', ()=>{
-  const findVowels = app.__get__('findVowels')
-  expect(findVowels).toBeTruthy();
-})
+test("Phone number must be formatted correctly.", () => {
+  const sliceOfCake = app.__get__("sliceOfCake");
 
-test('You must have the correct number of vowels', ()=>{
-  const findVowels = app.__get__("findVowels");
-
-  expect(findVowels("carola")).toBe(3)
-  expect(findVowels("youtube")).toBe(4)
-})
+  expect(sliceOfCake(20, 5, 1)).toBe(true);
+  expect(sliceOfCake(64, 17, 10)).toBe(false);
+  expect(sliceOfCake(400, 45, 3)).toBe(true);
+});
