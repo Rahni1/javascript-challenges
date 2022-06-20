@@ -11,7 +11,7 @@ test("The missing angle is correctly classified.", () => {
 
   expect(numLimit(25, 30, 50)).toBe(30);
   expect(numLimit(17,10, 71)).toBe(17);
-  expect(numLimit(102, 26, 90)).toBe(102);
+  expect(numLimit(102, 26, 90)).toBe(90);
   expect(numLimit(54, 36, 54)).toBe(54);
   expect(numLimit(24, 24, 47)).toBe(24);
 });

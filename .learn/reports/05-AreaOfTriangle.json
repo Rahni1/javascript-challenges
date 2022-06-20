@@ -1,0 +1,21 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 2,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "AreaOfTriangle function must exist.",
+      "status": "passed"
+    },
+    {
+      "title": "The base for the triangle is correct",
+      "status": "passed"
+    }
+  ]
+}
