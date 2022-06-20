@@ -1,15 +1,17 @@
-const rewire = require("rewire")
-const app = rewire('./app.js')
+const rewire = require("rewire");
+const app = rewire("./app.js");
 
+test("numLimit function must exist.", () => {
+  const numLimit = app.__get__("numLimit");
+  expect(numLimit).toBeTruthy();
+});
 
-test('findVowels function must exist.', ()=>{
-  const findVowels = app.__get__('findVowels')
-  expect(findVowels).toBeTruthy();
-})
+test("The missing angle is correctly classified.", () => {
+  const numLimit = app.__get__("numLimit");
 
-test('You must have the correct number of vowels', ()=>{
-  const findVowels = app.__get__("findVowels");
-
-  expect(findVowels("carola")).toBe(3)
-  expect(findVowels("youtube")).toBe(4)
-})
+  expect(numLimit(25, 30, 50)).toBe(30);
+  expect(numLimit(17,10, 71)).toBe(17);
+  expect(numLimit(102, 26, 90)).toBe(102);
+  expect(numLimit(54, 36, 54)).toBe(54);
+  expect(numLimit(24, 24, 47)).toBe(24);
+});
