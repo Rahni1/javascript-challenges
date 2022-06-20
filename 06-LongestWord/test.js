@@ -2,14 +2,14 @@ const rewire = require("rewire")
 const app = rewire('./app.js')
 
 
-test('findVowels function must exist.', ()=>{
-  const findVowels = app.__get__('findVowels')
-  expect(findVowels).toBeTruthy();
+test('longestWord function must exist.', ()=>{
+  const longestWord = app.__get__('longestWord')
+  expect(longestWord).toBeTruthy();
 })
 
-test('You must have the correct number of vowels', ()=>{
-  const findVowels = app.__get__("findVowels");
+test('You should return the longest word', ()=>{
+  const longestWord = app.__get__("longestWord");
 
-  expect(findVowels("carola")).toBe(3)
-  expect(findVowels("youtube")).toBe(4)
+  expect(longestWord("Well, which is the longest word?")).toBe("longest");
+  expect(longestWord("Hello my name is Nicola de Fuentevideo")).toBe("Fuentevideo");
 })
