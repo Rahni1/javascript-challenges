@@ -2,14 +2,16 @@ const rewire = require("rewire")
 const app = rewire('./app.js')
 
 
-test('findVowels function must exist.', ()=>{
-  const findVowels = app.__get__('findVowels')
-  expect(findVowels).toBeTruthy();
+test('missingAngle function must exist.', ()=>{
+  const missingAngle = app.__get__('missingAngle')
+  expect(missingAngle).toBeTruthy();
 })
 
-test('You must have the correct number of vowels', ()=>{
-  const findVowels = app.__get__("findVowels");
+test('The missing angle is correctly classified.', ()=>{
+  const missingAngle = app.__get__("missingAngle");
 
-  expect(findVowels("carola")).toBe(3)
-  expect(findVowels("youtube")).toBe(4)
+  expect(missingAngle(25, 30)).toBe("Obtuse")
+  expect(missingAngle(17, 71)).toBe("Obtuse")
+  expect(missingAngle(26, 90)).toBe("Acute")
+  expect(missingAngle(54, 36)).toBe("Right")
 })
