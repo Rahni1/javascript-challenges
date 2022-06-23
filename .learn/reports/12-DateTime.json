@@ -1,0 +1,33 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 5,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "today variable must exist.",
+      "status": "passed"
+    },
+    {
+      "title": "date variable must exist.",
+      "status": "passed"
+    },
+    {
+      "title": "time variable must exist.",
+      "status": "passed"
+    },
+    {
+      "title": "dateTime variable must exist.",
+      "status": "passed"
+    },
+    {
+      "title": "today must be a date object",
+      "status": "passed"
+    }
+  ]
+}

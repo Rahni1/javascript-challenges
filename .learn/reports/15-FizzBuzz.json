@@ -1,0 +1,17 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 1,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "Your output should be printing, fizz, buzz, fizzbuzz, or just a number depending on whether that number is divisible by 3, 5, 3 & 5, or none",
+      "status": "passed"
+    }
+  ]
+}
