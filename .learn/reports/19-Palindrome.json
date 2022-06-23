@@ -1,0 +1,21 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 2,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "palindrome function must exist",
+      "status": "passed"
+    },
+    {
+      "title": "The function should return if the string is a palidrone or not (true or false)",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 4,
+  "numPassedTests": 1,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mchangeName method must exist\u001b[39m\u001b[22m\n\n    ReferenceError: changeName is not defined\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat eval (eval at __get__ (\u001b[2m18-NameChange/app.js\u001b[2m:26:16), <anonymous>:1:1)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.__get__ (\u001b[2m18-NameChange/app.js\u001b[2m:26:16)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36m18-NameChange/test.js\u001b[39m\u001b[0m\u001b[2m:9:26)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mfirstName property must exist in Person object\u001b[39m\u001b[22m\n\n    ReferenceError: firstName is not defined\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat eval (eval at __get__ (\u001b[2m18-NameChange/app.js\u001b[2m:26:16), <anonymous>:1:1)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.__get__ (\u001b[2m18-NameChange/app.js\u001b[2m:26:16)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36m18-NameChange/test.js\u001b[39m\u001b[0m\u001b[2m:13:25)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mlastName property must exist in Person object\u001b[39m\u001b[22m\n\n    ReferenceError: lastName is not defined\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat eval (eval at __get__ (\u001b[2m18-NameChange/app.js\u001b[2m:26:16), <anonymous>:1:1)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.__get__ (\u001b[2m18-NameChange/app.js\u001b[2m:26:16)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36m18-NameChange/test.js\u001b[39m\u001b[0m\u001b[2m:17:24)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mI should be able to change my last name.\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"Smith\"\u001b[39m\n    Received: \u001b[31m\"Max\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 25 |\u001b[39m     personTest\u001b[33m.\u001b[39mchangeName(\u001b[32m\"Smith\"\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 26 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 27 |\u001b[39m     expect(personTest\u001b[33m.\u001b[39mfirstName)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"Smith\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 28 |\u001b[39m })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 29 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36m18-NameChange/test.js\u001b[39m\u001b[0m\u001b[2m:27:34)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "Person object function must exist",
+      "status": "passed"
+    },
+    {
+      "title": "changeName method must exist",
+      "status": "failed"
+    },
+    {
+      "title": "firstName property must exist in Person object",
+      "status": "failed"
+    },
+    {
+      "title": "lastName property must exist in Person object",
+      "status": "failed"
+    },
+    {
+      "title": "I should be able to change my last name.",
+      "status": "failed"
+    }
+  ]
+}
