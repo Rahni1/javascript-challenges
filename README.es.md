@@ -95,7 +95,7 @@ RETOS:
     
    **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/RemoveChars.js)**
     
-**15. Comparte el pastel:** :pastel:
+**15. Comparte el pastel:** 🍰
     Cree una función que determine si es posible o no compartir el pastel de manera justa dados estos tres
     parámetros:
     Sectores totales, Destinatarios, Sectores cada uno.
@@ -104,5 +104,5 @@ RETOS:
     
    **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/SplitCake.js)**
 
-**dieciséis. Formatear número de teléfono:**
+**16. Formatear número de teléfono:**
 Cree una función que tome una matriz de 10 números entre 0 y 9 y devuelva una cadena de números con formato de ph
