@@ -7,8 +7,9 @@ All of the challenges are listed below.
 **Solutions:**
 The links to the solutions are provided below the questions.
 
-**Open challenges with learnpack:**  
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/UmiKami/javascript-challenges.git)
+**Open challenges with learnpack:** 
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/rahni1/javascript-challenges.git)
 
 CHALLENGES:
    
