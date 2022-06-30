@@ -7,7 +7,9 @@ Todos los desafíos se enumeran a continuación.
 **Soluciones:**
 Los enlaces a las soluciones se proporcionan debajo de las preguntas.
 
-**Desafíos abiertos con el paquete de aprendizaje:**
+**Abrir desafios con learnpack:**
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/rahni1/javascript-challenges.git)
 
 RETOS:
    
