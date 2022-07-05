@@ -13,30 +13,30 @@ Los enlaces a las soluciones se proporcionan debajo de las preguntas.
 
 RETOS:
    
-**1. Números de cheques:**
+**1. Validacion de Números:**
     Haga que la función ```checkNums(num1,num2)``` tome ambos parámetros que se pasan e imprima verdadero si num2 es mayor que num1, de lo contrario imprima falso.
     Si los valores de los parámetros son iguales entre sí, imprima -1.
     
  **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/CheckNums.js)**
 
-**2. Comparar cadenas:**
-    Cree una función que tome dos cadenas como argumentos y devuelva verdadero o falso
-    dependiendo de si el número total de caracteres en la primera cadena es igual a la
-    número total de caracteres en la segunda cadena.
+**2. Comparar Strings:**
+    Cree una función que tome dos strings como argumentos y devuelva true o false
+    dependiendo de si el número total de caracteres en el primer string es igual a la
+    número total de caracteres en el segundo string.
     
 **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/CompareStrings.js)**
 
-**3. Concatenar arreglos:**
-   Cree una función para concatenar dos matrices de enteros.
+**3. Concatenar Arrays:**
+   Cree una función para concatenar dos arrays de tipo int.
 
 **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/ConcatenateArrays.js)**
 
-**4. Contar las vocales:**
-    Cree una función que tome una cadena e imprima el número de vocales que contiene.
+**4. Contar las Vocales:**
+    Cree una función que tome un string e imprima el número de vocales que contiene.
     
    **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/VowelCount.js)**
     
-**5. Fecha y hora:** :fecha:
+**5. Fecha y Hora:** 📅
     - Imprime la fecha y hora actuales en el formato predeterminado.
     - Imprime la fecha y hora actual en estilo localizado.
     - Imprime la fecha y hora actuales con un patrón.
@@ -44,12 +44,12 @@ RETOS:
  **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/DateTime.js)**
  
 **6. Divisible por 5:**
-    Cree una función que imprima verdadero si un número entero es divisible por 5 y falso en caso contrario.
+    Cree una función que imprima true si un número entero es divisible por 5 y false en caso contrario.
     
    **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/DivisibleBy5.js)**
 
 **7. Factorial:**
-    Este desafío requiere que devuelvas el factorial de un número dado. factorial de un numero
+    Este desafío requiere que devuelvas el factorial de un número dado. El factorial de un numero
     (num), es num multiplicado por (num-1) multiplicado por (num-2) y así sucesivamente hasta llegar al número 1.
     Por ejemplo, el factorial de 4 es 4 * 3 * 2 * 1 = 24. Bucle de 1 a num, multiplicando cada número por
     el anterior, hasta llegar al número.
@@ -58,20 +58,20 @@ RETOS:
  
 **8. Fibonacci:**
     La secuencia de Fibonacci es una secuencia de números cuya suma es los dos números anteriores (por ejemplo, 0, 1, 1, 2, 3, etc.).
-    Usando 0 y 1 como valores iniciales, cree una función que imprima una matriz que contenga todos los valores de Fibonacci
-    Números hasta el 10000.
+    Usando 0 y 1 como valores iniciales, cree una función que imprima un array que contenga todos los valores de Fibonacci 
+    hasta el 10000.
     
 **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/Fibonacci.js)**
 
-**9. Efervescencia:**
+**9. FizzBuzz:**
     Escriba un programa que imprima los números del 1 al 100. Pero para múltiplos de tres, escriba "Fizz" en lugar de
     el número y para los múltiplos de cinco escriba “Buzz”. Para números que son múltiplos de tres y cinco
     imprime "FizzBuzz".
    
  **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/FizzBuzz.js)**
 
-**10. Letras en mayúscula:**
-    Cree una función que convierta el primer carácter de cada palabra en mayúsculas. Imprime la cadena recién formateada.
+**10. Letras en Mayúscula:**
+    Cree una función que convierta el primer carácter de cada palabra en mayúsculas. Imprime el string recién formateado.
     
    **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/CapitaliseEveryLetter.js)**
     
@@ -80,31 +80,54 @@ RETOS:
     
    **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/MultiplySkip.js)**
     
-**12.Cambio de nombre:**
+**12.Cambio de Nombre:**
     Cambie su apellido usando una función constructora, la función changeName y una instancia de objeto.
     
   **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/NameChange.js)**
    
 **13. Palíndromo:**
-    Dada una cadena de texto, imprime verdadero o falso indicando si el texto es o no un palíndromo.
+    Dado un string de texto, imprime true o false indicando si el texto es o no un palíndromo.
     Un palíndromo es una palabra, número u otra secuencia de caracteres que se lee igual hacia atrás que hacia adelante,
-    como "señora" o "coche de carreras". También puede crear un palíndromo int.
+    como "Ana" o "Otto". También puede crear un palíndromo de números enteros (int).
     
    **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/Palindrome.js)**
 
-**14. Eliminar personajes:**
-    Elimina el primer y último carácter de una cadena.
+**14. Eliminar Personajes:**
+    Elimina el primer y último carácter de un string.
     
    **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/RemoveChars.js)**
     
-**15. Comparte el pastel:** 🍰
+**15. Comparte el Pastel:** 🍰
     Cree una función que determine si es posible o no compartir el pastel de manera justa dados estos tres
     parámetros:
-    Sectores totales, Destinatarios, Sectores cada uno.
+    Partes totales, Destinatarios, Partes cada uno.
     Está bien no usar todo el pastel.
-    Imprima verdadero si el pastel se puede compartir por igual, de lo contrario imprima falso.
+    Imprima true si el pastel se puede compartir por igual, de lo contrario imprima false.
     
    **[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/SplitCake.js)**
 
-**16. Formatear número de teléfono:**
-Cree una función que tome una matriz de 10 números entre 0 y 9 y devuelva una cadena de números con formato de ph
+**16. Formatear Número de Teléfono:**
+Cree una función que tome un array de 10 números entre 0 y 9 y devuelva un string de números con formato de número de teléfono.
+La llamada a la función debería parecerse a algo como esto: ```formatPhoneNumber(4, 4, 1, 2, 3, 4, 5, 6, 7, 8).```
+
+**[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/FormatPhoneNumber.js)**
+
+**17. Halla el Área de un Triángulo:**
+    Escribe una función que tome la base y la altura de un triángulo e imprima su área.
+**[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/AreaOfTriangle.js)**
+
+**18. Palabra Más Larga:**
+Escriba una función que tome (sen) como parámetro e imprima la palabra más larga en una oración.
+
+**[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/LongestWord.js)**
+
+**19. Ángulo Faltante:**
+Cree una función que clasifique el ángulo faltante como "agudo", "derecho" u "obtuso" según sus grados. Proporcione dos números como argumentos y calcule el grado faltante sumando los dos números y restándolo de 180.
+
+**[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/missingAngle.js)**
+
+**20. Límite de Número:**
+Escriba una función que tome tres argumentos numéricos (un número como entrada y los otros dos números que representan los puntos más bajo y más alto del rango). Si el número cae dentro del rango, imprima el número.
+Si el número es menor que el límite inferior del rango, imprime el número del límite más bajo y si el número es mayor que el límite superior del rango, imprime el número del límite más alto.
+
+**[Solución](https://github.com/RahniKaurBansal/JS-Challenges/blob/master/limitNumValue.js)**
