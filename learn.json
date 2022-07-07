@@ -5,7 +5,7 @@
   "publicPath": "/preview",
   "language": "auto",
   "grading": "isolated",
-  "exercisesPath": "./",
+  "exercisesPath": "./exercises",
   "disableGrading": false,
   "disabledActions": [],
   "actions": [],
