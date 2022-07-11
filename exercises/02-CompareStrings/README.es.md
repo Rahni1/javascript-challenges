@@ -1,4 +1,4 @@
-# `02` Comapre Strings
+# `02` Compare Strings
 
 Crea una funcion `compareStrings` que toma dos strings como argumentos.
 
