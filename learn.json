@@ -1,0 +1,17 @@
+{
+  "dirPath": "./.learn",
+  "configPath": "./learn.json",
+  "outputPath": "./.learn/dist",
+  "publicPath": "/preview",
+  "language": "auto",
+  "grading": "isolated",
+  "exercisesPath": "./exercises",
+  "disableGrading": false,
+  "disabledActions": [],
+  "actions": [],
+  "difficulty": "easy",
+  "duration": 2,
+  "description": "20 javascript problems to test your knowledge",
+  "title": "Javascript 20 Challenges",
+  "slug": "javascript-20-challenges"
+}
